@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<style>
+
+
+iframe {
+    border: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+	position:absolute;
+	align:center;
+}
+
+#player {
+    background-color: black;
+    bottom: 0;
+    color: white;
+    left: 0;
+    position: fixed;
+    height:40px;   
+    width: 100%; 
+}
+body {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity:.90;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+
+.immg:hover{
+ opacity: 0.5;
+ }
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position:relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/black.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/blackk.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/white.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("img/white2.jpg");
+  min-height: 400px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.add{  
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+}
+</style>
+</head>
+<body>
+
+
+<div class="bgimg-1" id="home">
+  <div class="caption">
+    <span class="border" style="background-color:transparent";>Kaushal Lohani</span>
+  </div>
+</div>
+
+
+<div id="projects"style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center;">Projects</h3><br>
+  
+  <a href="https://github.com/Kaush80/BlockShooter" target="_blank"><img  class="immg"  src="img/boxshooter.png" height="200px" width="200px"></a><a href="https://github.com/Kaush80/3d-reconstruction_OpenCV" target="_blank"><img  class="immg" src="img/stereo.jpg" height="200px" width="200px"></a><a href="http://dashboardwybe.herokuapp.com/" target="_blank"><img  class="immg" src="img/dashboard.png" height="200px" width="200px"></a><a href="https://github.com/Kaush80/machine_learning/tree/main/deeplr" target="_blank"><img  class="immg" src="img/neural.jpg" height="200px" width="200px"></a>
+  </div>
+  
+
+<div class="bgimg-2" id="skills">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:30px;color: #f7f7f7;"><span style="font-size:150%;">Skills</span></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+   
+
+    <p><b> <span style="color:rgb(0,162,232);font-size:200%;"></b><br> 
+	<span style="color:rgb(234,67,53);font-size:150%;">
+Programming Languages</span><br>
+<i>C, C++, Python, Java, JavaScript, HTML, CSS</i><br> 
+<span style="color:rgb(234,67,53);font-size:150%;">Frameworks</span> <br>
+<i>Django, Substrate</i><br> 
+<span style="color:rgb(234,67,53);font-size:150%;">Misc.</span> <br>
+<i>Machine Learning, Deep learning, Web-development, AWS, Blockchain, Unity.</i><br> </p>
+  </div>
+ 
+</div>
+
+<div class="bgimg-3" id="about">
+  <div class="caption">
+    <span class="border" style="background-color:#000000;font-size:40px;color: #f7f7f7;">About</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align:left;">
+   <p>
+	   <span style="color:beige;font-size:400%;font-">Full-Stack Developer</span><br>
+	   <ul>
+      <li>Education <div><br>Bachelors in Technology - Computer Science and technology<br>Lovely Professional University (2021)</li> 
+     </ul>
+     <ul>
+      <li>Interests <div><br><ul><li>Cognitive Science</li><li>Video Games</li><li>Machine Learning</li><li>Chess</li></ul></div></li></ul>
+   </p>
+  </div>
+</div>
+
+<div class="bgimg-4" id="contact">
+  <div class="caption" style="float:middle;">
+    <span class="border" style="background-color:transparent;"><a href="https://www.linkedin.com/in/kaushal-l-b509b4a4/" target="_blank"><img src="img/linkedin.png" height="80px" width="80px"></a> <a href="https://github.com/Kaush80" target="_blank"><img src="img/git.png" height="80px" width="80px"></a></span><br>
+  </div>
+</div>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#projects" target="_balnk">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  
+</div>
+
+</body>
+</html>
